@@ -9,7 +9,7 @@ Instalação via pub package (https://fvm.app/docs/getting_started/installation)
 dart pub global activate fvm
 ```
 2. Adicionar ao `Path` o caminho dos executáveis.
-> Warning: Pub installs executables into 'C:\Users\ddamasceno\AppData\Local\Pub\Cache\bin', which is not on your path.
+> Warning: Pub installs executables into `C:\Users\ddamasceno\AppData\Local\Pub\Cache\bin`, which is not on your path.
 You can fix that by adding that directory to your system s 'Path' environment variable. A web search for 'configure windows path' will show you how.
 
 ```
