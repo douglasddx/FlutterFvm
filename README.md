@@ -2,7 +2,7 @@
 Instalação e configuração do FVM para gerenciamento de versões Flutter no Windows.
 
 ## Pub package
-Instalação via pub package (https://fvm.app/docs/getting_started/installation).
+Instalação via pub package - https://fvm.app/docs/getting_started/installation.
 
 1. Executar no `powershell` ou outro teminal de sua preferência o comando.
 ```powershell
@@ -10,7 +10,7 @@ dart pub global activate fvm
 ```
 2. Adicionar ao `Path` o caminho dos executáveis.
 > Warning: Pub installs executables into `C:\Users\ddamasceno\AppData\Local\Pub\Cache\bin`, which is not on your path.
-You can fix that by adding that directory to your system s 'Path' environment variable. A web search for 'configure windows path' will show you how.
+> You can fix that by adding that directory to your system s 'Path' environment variable. A web search for 'configure windows path' will show you how.
 ```
 C:\Users\ddamasceno\AppData\Local\Pub\Cache\bin
 ```
@@ -20,7 +20,7 @@ C:\Users\ddamasceno\AppData\Local\Pub\Cache\bin
 ```
 fvm config
 ```
-2. Configuração o apontamento de cache do `Flutter`. Você pode escolher o caminha da pasta como melhor lhe atenda, neste caso, escolhi dentro da raiz da unidade 'C' - `c:\fvm`.
+2. Configuração do apontamento de cache do `Flutter`. Você pode escolher o caminho da pasta como melhor lhe atenda, neste caso, escolhi dentro da raiz da unidade 'C' - `c:\fvm`.
 ```
 fvm config --cache-path c:\fvm
 ```
