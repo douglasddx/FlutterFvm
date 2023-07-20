@@ -20,7 +20,7 @@ C:\Users\ddamasceno\AppData\Local\Pub\Cache\bin
 ```
 fvm config
 ```
-2. Configuração o apontamento de cache do `Flutter`.
+2. Configuração o apontamento de cache do `Flutter`. Você pode escolher o caminha da pasta como melhor lhe atenda, neste caso, escolhi dentro da raiz da unidade 'C' - `c:\fvm`.
 ```
 fvm config --cache-path c:\fvm
 ```
